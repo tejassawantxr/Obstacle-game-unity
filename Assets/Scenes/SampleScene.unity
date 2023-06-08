@@ -135,11 +135,10 @@ GameObject:
   - component: {fileID: 115365017}
   - component: {fileID: 115365016}
   - component: {fileID: 115365015}
-  - component: {fileID: 115365014}
   - component: {fileID: 115365013}
   - component: {fileID: 115365012}
   m_Layer: 0
-  m_Name: Obstacle 2
+  m_Name: Dropper Obstacle
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -157,6 +156,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9825ad2340e73354a9efab39c3a6f80f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  timeToWait: 5
 --- !u!54 &115365013
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -173,18 +173,6 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
---- !u!114 &115365014
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 115365011}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c3b6c6fea7eced844a12b15005486596, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!65 &115365015
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -257,7 +245,7 @@ Transform:
   m_GameObject: {fileID: 115365011}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 5.22, y: 2.88, z: -4.83}
-  m_LocalScale: {x: 1.4214602, y: 0.27903, z: 1.5582476}
+  m_LocalScale: {x: 0.747887, y: 0.62233233, z: 0.7605199}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
